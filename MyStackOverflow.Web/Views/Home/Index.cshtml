@@ -1,0 +1,27 @@
+﻿@using MyStackOverflow.Data
+@model IEnumerable<Question>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@foreach (Question q in Model)
+{
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3 well">
+            <div class="container" id="question-@q.Id">
+                <a href="/home/question?id=@q.Id">@q.Title</a>         q.DatePosted
+                        <br />
+                        @q.Text
+                    </div>
+            <div class="container" id="tags-for-question-@q.Id">
+                @q.QuestionsTags
+            </div>
+            
+        </div>
+    </div>
+}
+
+
+<h2>Index</h2>
+

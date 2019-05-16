@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStackOverflow.Web", "MyStackOverflow.Web\MyStackOverflow.Web.csproj", "{2AFEDFB9-DCBB-44C4-B8EE-5C7D9414AEB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStackOverflow.Data", "MyStackOverflow.Data\MyStackOverflow.Data.csproj", "{0BCC34EA-1158-4C85-9C39-DF9BE765E865}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AFEDFB9-DCBB-44C4-B8EE-5C7D9414AEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AFEDFB9-DCBB-44C4-B8EE-5C7D9414AEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AFEDFB9-DCBB-44C4-B8EE-5C7D9414AEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AFEDFB9-DCBB-44C4-B8EE-5C7D9414AEB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BCC34EA-1158-4C85-9C39-DF9BE765E865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BCC34EA-1158-4C85-9C39-DF9BE765E865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BCC34EA-1158-4C85-9C39-DF9BE765E865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BCC34EA-1158-4C85-9C39-DF9BE765E865}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
